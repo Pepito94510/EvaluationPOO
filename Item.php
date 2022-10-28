@@ -1,5 +1,7 @@
 <?php 
 
+//nécessaire car je n'avais aucun message d'erreur sinon 
+//malgré que j'ai changé mon fichier de conf php.ini
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
