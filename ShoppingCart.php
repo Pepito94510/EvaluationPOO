@@ -9,9 +9,9 @@ class ShoppingCart{
     private int $id;
     private $panier = array();
 
-    public function __construct($id)
+    public function __construct()
     {
-        $this->setId($id);
+        $this->setId();
     }
 
     public function getId()
@@ -19,7 +19,7 @@ class ShoppingCart{
         return $this->id;
     }
 
-    public function setId($id)
+    public function setId()
     {
         $id = uniqid();
     }
